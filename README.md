@@ -31,7 +31,7 @@ py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <TI> <TF>
 ```
 donde:
 * Archivo: Archivo de entrada con los elementos de la mochila.
-* SemiLLa: Valor entero que tomará última semilla a evaluar (desde el 1 hasta Semilla).
+* Semilla: Valor entero que tomará última semilla a evaluar (desde el 1 hasta Semilla).
 * Iteraciones: Condición de término o número de iteraciones. Valor entero.
 * TI: Valor inicial de Tau.
 * TF: Valor final de Tau.
