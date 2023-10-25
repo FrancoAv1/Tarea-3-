@@ -9,7 +9,7 @@ Desarrollar una aplicación que implemente el Problema del Vendedor Viajero a tr
 
 El código debe de tener al menos las siguientes funciones:
 * Generar un número real randómico entre [0 y 1].
-* Generar un número entero randomico entre [1 y N].
+* Generar un número entero randómico entre [1 y N].
 * Inicializar el ecosistema.
 * Función de evaluación del fitness de cada especie.
 * Función de selección de una especie usando el método de la ruleta.
