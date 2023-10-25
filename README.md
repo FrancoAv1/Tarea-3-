@@ -27,7 +27,7 @@ Requisitos: Python 3.8.10 disponible en sistema operativo.
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
 ```ruby
-py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <Tini> <Tfin>
+py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <tIni> <tFin>
 ```
 donde:
 * Archivo: Archivo de entrada con los elementos de la mochila.
