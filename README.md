@@ -16,14 +16,27 @@ El código debe de tener al menos las siguientes funciones:
 * Función de reemplazo de la especie seleccionada.
 * Función de evaluación del ecosistema.
 
-  Se deben ingresar y sintonizar los siguientes parámetros:
+Se deben ingresar y sintonizar los siguientes parámetros:
 * Archivo de entrada.
 * Valor semilla generador valores randómicos.
 * Condición de término o número de iteraciones.
-* Valor de Tau inicial.
-* Valor de Tau final.
+* Valor de Tau.
 ## Instalación
 Requisitos: Python 3.8.10 disponible en sistema operativo.
 
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
+```ruby
+py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <TI> <TF>
+```
+donde:
+* Archivo: Archivo de entrada con los elementos de la mochila.
+* SemiLLa: Valor entero que tomará última semilla a evaluar (desde el 1 hasta Semilla).
+* Iteraciones: Condición de término o número de iteraciones. Valor entero.
+* TI: Valor inicial de Tau.
+* TF: Valor final de Tau.
+
+* ## Ejemplo
+```ruby
+py mochila.py 
+```
