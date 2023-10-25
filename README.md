@@ -27,14 +27,14 @@ Requisitos: Python 3.8.10 disponible en sistema operativo.
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
 ```ruby
-py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <TI> <TF>
+py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <Tini> <Tfin>
 ```
 donde:
 * Archivo: Archivo de entrada con los elementos de la mochila.
 * Semilla: Valor entero que tomará última semilla a evaluar (desde el 1 hasta Semilla).
 * Iteraciones: Condición de término o número de iteraciones. Valor entero.
-* TI: Valor inicial de Tau.
-* TF: Valor final de Tau.
+* Tini: Valor inicial de Tau.
+* Tfin: Valor final de Tau.
 
 * ## Ejemplo
 ```ruby
