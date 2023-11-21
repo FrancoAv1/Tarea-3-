@@ -38,5 +38,5 @@ donde:
 
 * ## Ejemplo
 ```ruby
-py mochila.py 
+py mochila.py .\Knapsack_Test_Instances\hardinstances_pisinger\knapPI_11_20_1000.csv 30 10000 1.4 1.9
 ```
