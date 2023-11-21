@@ -27,7 +27,9 @@ Requisitos: Python 3.8.10 disponible en sistema operativo.
 ## Ejecución
 Para ejecutar, escribir en consola o terminal:
 ```ruby
+
 py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <tIni> <tFin>
+
 ```
 donde:
 * Archivo: Archivo de entrada con los elementos de la mochila.
@@ -38,5 +40,7 @@ donde:
 
 * ## Ejemplo
 ```ruby
+
 py mochila.py .\Knapsack_Test_Instances\hardinstances_pisinger\knapPI_11_20_1000.csv 30 10000 1.4 1.9
+
 ```
