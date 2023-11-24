@@ -28,8 +28,7 @@ Requisitos: Python 3.8.10 disponible en sistema operativo.
 Para ejecutar, escribir en consola o terminal:
 ```ruby
 py mochila.py <Semilla> <Archivo> <Tamaño_Pob> <Iteraciones> <tIni> <tFin>
-```
-donde:
+``` donde:
 * Archivo: Archivo de entrada con los elementos de la mochila.
 * Semilla: Valor entero que tomará última semilla a evaluar (desde el 1 hasta Semilla).
 * Iteraciones: Condición de término o número de iteraciones. Valor entero.
