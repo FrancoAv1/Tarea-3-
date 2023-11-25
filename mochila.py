@@ -18,18 +18,18 @@ if len(sys.argv) == 6:
     print("Archivo de entrada:", entrada)
 
     SemillaFinal = int(sys.argv[2])
-    print("Semilla Final:", SemillaFinal)
+    print("Semilla:", SemillaFinal)
     
     numIteraciones = int(sys.argv[3])
-    print("Número de iteraciones:", numIteraciones)
+    print("Cantidad iteraciones:", numIteraciones)
 
     tIni = float(sys.argv[4])
-    print("Tau inicial:", tIni)
+    print("Valor Tau inicial:", tIni)
 
     tFin = float(sys.argv[5])    
-    print("Tau final:", tFin)
+    print("Valor Tau final:", tFin)
 else:
-    print('Error en la entrada de los parametros')
+    print('Error en la entrada de los parámetros')
     sys.exit(0)
 
 tauActual = tIni
